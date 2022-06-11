@@ -49,7 +49,7 @@ const getComputerChoice = () => {
  * 
  * @param userChoice 
  * @param computerChoice 
- * @returns the result of comparaison of both choice , player won or computer won or tie game 
+ * @returns the result of comparison of both choice , player won or computer won or tie game 
  */
 const determineWinner = (userChoice, computerChoice) => {
   if (userChoice === 'bomb') {
